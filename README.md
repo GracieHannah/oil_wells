@@ -64,7 +64,7 @@ These insights help guide the modeling process and inform the final selection of
 ### Mean Profit by Region with Confidence Intervals
 
 <p align="center">
-<img src="images/profit_by_region.png" width="750">
+<img src="images/loss_risk_by_region.png" width="750">
 </p>
 
 This visualization compares the **expected mean profit for each region** based on the selected top 200 wells using bootstrap simulations.  
@@ -76,7 +76,7 @@ Region 1 demonstrates the **highest expected profit**, while still remaining bel
 ### Mean Profit Comparison
 
 <p align="center">
-<img src="images/mean_profit_region.png" width="750">
+<img src="images/profit_by_region.png" width="750">
 </p>
 
 This chart highlights the **difference in average profit across regions**. Region 1 again shows the highest average profit, reinforcing its potential as the most profitable development location.
