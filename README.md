@@ -57,6 +57,41 @@ Initial analysis of the datasets revealed several useful observations:
 These insights help guide the modeling process and inform the final selection of drilling regions.
 
 ---
+---
+
+## Visual Analysis
+
+### Mean Profit by Region with Confidence Intervals
+
+<p align="center">
+<img src="images/profit_by_region.png" width="750">
+</p>
+
+This visualization compares the **expected mean profit for each region** based on the selected top 200 wells using bootstrap simulations.  
+
+Region 1 demonstrates the **highest expected profit**, while still remaining below the project's acceptable risk threshold. The confidence intervals illustrate the uncertainty in profit estimates, helping guide the final region selection.
+
+---
+
+### Mean Profit Comparison
+
+<p align="center">
+<img src="images/mean_profit_region.png" width="750">
+</p>
+
+This chart highlights the **difference in average profit across regions**. Region 1 again shows the highest average profit, reinforcing its potential as the most profitable development location.
+
+---
+
+### Distribution of Oil Reserves by Region
+
+<p align="center">
+<img src="images/reserve_distribution.png" width="750">
+</p>
+
+This distribution plot compares the spread of oil reserves across the three regions. While all regions contain wells with varying reserve sizes, the distribution helps visualize differences in reserve availability and provides context for the profitability calculations used later in the analysis.
+
+---
 
 ## Model Development
 
