@@ -1,4 +1,4 @@
-# Oil Wells Profit Prediction
+# Well Profit Prediction
 
 ## Project Overview
 
